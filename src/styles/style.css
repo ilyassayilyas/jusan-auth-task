@@ -44,9 +44,20 @@ form {
   font-size: 13px;
   border: none;
   border-bottom: 0.5px solid #6991f3;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
   display: block;
   width: 100%;
+}
+
+.input-container {
+  width: 100%;
+}
+
+#reg-form-container input:focus,
+#login-form-container input:focus {
+  outline: none;
+  border: 2px solid rgba(67, 220, 67, 0.717);
+  border-radius: 5px;
 }
 
 #registr-btn,
@@ -73,6 +84,13 @@ a {
   font-weight: bold;
   font-size: 13px;
   color: #0904f9;
+}
+
+span {
+  font-size: 14px;
+  color: #ea4335;
+  padding: 0.5rem;
+  font-weight: bold;
 }
 
 /* errors pages */
